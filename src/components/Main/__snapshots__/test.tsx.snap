@@ -3,7 +3,7 @@
 exports[`<Main /> should render the heading 1`] = `
 <div>
   <h1>
-    React!
+    React avançado!
   </h1>
 </div>
 `
