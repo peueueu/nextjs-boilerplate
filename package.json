@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "./node_modules/.bin/eslint --fix src --max-warnings=0",
-    "test": "jest --testPathIgnorePatterns=_document.tsx ",
+    "test": "jest --testPathIgnorePatterns=_document.tsx",
     "test:watch": "jest --watch"
   },
   "lint-staged": {
