@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "./node_modules/.bin/eslint --fix src --max-warnings=0",
-    "test": "jest --testPathIgnorePatterns=_document.tsx",
+    "test": "jest --passWithNoTests",
     "test:watch": "jest --watch"
   },
   "lint-staged": {
@@ -44,6 +44,7 @@
     "jest-environment-jsdom": "^28.1.0",
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
+    "ts-jest": "^28.0.2",
     "typescript": "^4.6.4"
   }
 }
