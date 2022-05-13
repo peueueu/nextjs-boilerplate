@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "./node_modules/.bin/eslint --fix src --max-warnings=0",
-    "test": "jest --passWithNoTests",
+    "test": "jest",
     "test:watch": "jest --watch"
   },
   "lint-staged": {
