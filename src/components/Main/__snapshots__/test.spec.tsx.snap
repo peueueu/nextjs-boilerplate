@@ -1,6 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Main /> should render the heading 1`] = `
+exports[
+  `<Main /> should render the heading with the default values if no props are passed 1`
+] = `
 .c0 {
   background-color: #06092b;
   color: #fff;
