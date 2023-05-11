@@ -1,6 +1,6 @@
 import { screen, render } from '@testing-library/react'
 
-import Main from '.'
+import Main from './Main'
 
 describe('<Main />', () => {
   it('should render the heading with the default values if no props are passed', () => {
