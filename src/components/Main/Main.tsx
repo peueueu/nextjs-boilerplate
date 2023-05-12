@@ -1,10 +1,13 @@
 import * as S from './styles'
+import { MainProps } from './utils'
 
 const Main = ({
   title = 'Boilerplate',
-  description = 'TypeScript, ReactJS, NextJS e Styled Components'
-}) => (
-  <S.Wrapper>
+  description = 'TypeScript, ReactJS, NextJS e Styled Components',
+  backgroundColor,
+  textColor
+}: MainProps) => (
+  <S.Wrapper backgroundColor={backgroundColor} textColor={textColor}>
     <S.Logo src="/img/logo.svg" alt="dashboard-logo" />
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>

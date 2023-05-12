@@ -1,8 +1,14 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.main`
-  background-color: #06092b;
-  color: #fff;
+type WrapperStyledProps = {
+  backgroundColor?: string
+  textColor?: string
+}
+
+export const Wrapper = styled.main<WrapperStyledProps>`
+  background-color: ${({ backgroundColor }) =>
+    backgroundColor ? backgroundColor : '#06092b'};
+  color: ${({ textColor }) => (textColor ? textColor : '#fff')};
   width: 100%;
   height: 100%;
   padding: 3rem;
