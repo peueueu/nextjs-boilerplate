@@ -12,7 +12,3 @@ type Story = StoryObj<typeof Main>
 export const Template: Story = {
   args: { title: 'Title template', description: 'Description template' }
 }
-
-export const Default: Story = {
-  args: { title: 'Title template', description: 'Description template' }
-}
