@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render the heading with the default values if no props are passed 1`] = `
+<main
+  class=""
+>
+  <h1>
+    Button
+  </h1>
+</main>
+`;
