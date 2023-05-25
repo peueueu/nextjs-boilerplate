@@ -1,0 +1,13 @@
+import React from 'react'
+import { screen, render } from '@testing-library/react'
+import {{pascalCase name}} from './{{pascalCase name}}'
+
+describe('<{{pascalCase name}} />', () => {
+  it('should render the heading with the default values if no props are passed', () => {
+    const { container } = render(<{{pascalCase name}} />)
+
+    expect(screen.getByRole('heading', { name: /{{pascalCase name}}/i })).toBeInTheDocument()
+
+    expect(container.firstChild).toMatchSnapshot()
+  })
+})
